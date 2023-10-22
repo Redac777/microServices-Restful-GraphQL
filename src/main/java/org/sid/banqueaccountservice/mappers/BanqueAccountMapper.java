@@ -24,4 +24,15 @@ public class BanqueAccountMapper {
         BeanUtils.copyProperties(banqueAccountRequestDTO,banqueAccount);
         return banqueAccount;
     }
+
+    public BanqueAccount fromBanqueAccountRequestDTOForUpdate(String id,BanqueAccountRequestDTO banqueAccountRequestDTO){
+        BanqueAccount banqueAccount = BanqueAccount.builder()
+                .id(id)
+                .createdAt(new Date())
+                .build();
+        BeanUtils.copyProperties(banqueAccountRequestDTO,banqueAccount);
+        return banqueAccount;
+    }
+
+
 }
