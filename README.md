@@ -16,4 +16,15 @@
 <img src="Captures/img-webservice-7.png">
 <h3>get accounts by type</h3>
 <img src="Captures/img-webservice-8.png">
+
+<h2>GraphQL</h2>
+<h3>List Accounts</h3>
+<img src="Captures/graphQlcap1.png">
+<h3>Add Account</h3>
+<img src="Captures/graphqlcap2.png">
+<h3>Delete Account</h3>
+<img src="Captures/grapghqlcap3.png">
+<h3>List customers</h3>
+<img src="Captures/grapghqlcap4.png">
+
 </html>
